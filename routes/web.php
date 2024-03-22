@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('_homepage');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/diet', function () {
+    return view('diet');
+});
+
+Route::get('/behaviour', function () {
+    return view('behaviour');
+});
+
+Route::get('/health', function () {
+    return view('health');
 });
