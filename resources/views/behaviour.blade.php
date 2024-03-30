@@ -1,7 +1,7 @@
 @extends('layout', ['title' => 'Behaviour'])
 
 @section('content')
-    <div class="mb-4">
+    <div class="mb-6">
         <h1 class="text-3xl font-semibold mb-4">
             Behaviour
         </h1>

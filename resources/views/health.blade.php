@@ -125,7 +125,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="pb-4">
         <h1 class="text-3xl font-semibold my-4">
             Bunny vets worth recommending
         </h1>

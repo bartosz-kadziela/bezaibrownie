@@ -32,7 +32,7 @@
             </i>
         </p>
     </div>
-    <div>
+    <div class="pb-4">
         <h1 class="text-3xl font-semibold my-4">
             Should you get a bunny?
         </h1>

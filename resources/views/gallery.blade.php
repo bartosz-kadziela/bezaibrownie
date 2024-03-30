@@ -1,7 +1,7 @@
 @extends('layout', ['title' => 'Gallery'])
 
 @section('content')
-    <div class="mb-8">
+    <div class="mb-4">
         <h1 class="text-3xl font-semibold mb-4">
             Pictures
         </h1>
