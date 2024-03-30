@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://cdn.tailwindcss.com"></script>
         <title>Beza i Brownie - {{ $title }}</title>
+        <link rel="icon" type="image/svg+xml" href="images/bunny_icon.svg">
         @vite('resources/js/app.js')
         @vite('resources/css/app.css')
     </head>
