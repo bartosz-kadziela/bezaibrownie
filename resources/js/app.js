@@ -6,7 +6,7 @@ import 'simple-datatables/dist/style.css';
 
 let currentPath = window.location.pathname;
 
-if (currentPath === "/") {
+if (currentPath.endsWith("/") === true) {
     var funFactElement = document.getElementById('funFact');
 
     setInterval(function () {
@@ -17,7 +17,7 @@ if (currentPath === "/") {
     }, 10000);
 }
 
-if (currentPath === "/diet") {
+if (currentPath.endsWith("/diet") === true) {
     let options = {
         searchable: true,
         perPage: 25,
@@ -26,7 +26,7 @@ if (currentPath === "/diet") {
     const dataTable = new DataTable("#dietTable", options);
 }
 
-if (currentPath === "/gallery") {
+if (currentPath.endsWith("/gallery") === true) {
     const customLightboxHTML = `<div id="glightbox-body" class="glightbox-container">
         <div class="gloader visible"></div>
         <div class="goverlay"></div>
@@ -75,7 +75,7 @@ if (currentPath === "/gallery") {
     });
 }
 
-if (currentPath === "/health") {
+if (currentPath.endsWith("/health") === true) {
     var collapsibles = document.getElementsByClassName("collapsible"); // Assign all elements on the page with "collapsible" class to the variable
 
     for (var i = 0; i < collapsibles.length; i++) { // For each element in collapsibles collection do ...
