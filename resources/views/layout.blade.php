@@ -9,7 +9,7 @@
         @vite('resources/js/app.js')
         @vite('resources/css/app.css')
     </head>
-    <body class="bg-gray-100">
+    <body class="bg-gray-100" style="zoom:0.8">
         <div class="container mx-auto px-10 bg-gray-50 min-h-screen relative pb-12">
             <nav class="py-4">
                 <a href="/">
