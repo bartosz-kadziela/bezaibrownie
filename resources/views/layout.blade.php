@@ -12,7 +12,7 @@
     <body class="bg-gray-100" style="zoom:0.8">
         <div class="container mx-auto px-10 bg-gray-50 min-h-screen relative pb-12">
             <nav class="py-4">
-                <a href="/">
+                <a href="{{ url('/') }}">
                     <div class="h-24 w-24 bg-white shadow-md border rounded-full p-2 float-left">
                         <img src="images/bezaibrownie.png" alt="Beza i Brownie logo" class="h-20 w-20">
                     </div>
